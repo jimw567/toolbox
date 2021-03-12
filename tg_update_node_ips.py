@@ -74,3 +74,7 @@ print('INFO: Cluster node IP configuration updated to:')
 for h in config_dict['System']['HostList']:
     print('ID:', h['ID'], 'Hostname:', h['Hostname'])
 
+print('******************************************')
+print('INFO: Rebooting all nodes may be required')
+print('******************************************')
+
